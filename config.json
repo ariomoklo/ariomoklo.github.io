@@ -1,0 +1,17 @@
+{
+    "domain": "http://ariomoklo.github.io/",
+    "title": "Ario Moklo's",
+    "paging": {
+        "page": {"cv": "CV", "porto":"Portofolio", "contact":"Contact"},
+        "home": "cv",
+        "path": "page"
+    },
+    "data": {
+        "json": ["cv", "porto", "contact"],
+        "path": "data"
+    },
+    "template": {
+        "part": ["navbar", "loading", "footer"],
+        "path": "template"
+    } 
+}

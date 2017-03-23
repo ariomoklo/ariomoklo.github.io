@@ -1,0 +1,141 @@
+{
+    "selfId":{
+        "name": "Ario Widiatmoko",
+        "birthday": { "day": 12, "month": 10, "year": 1994 },
+        "birthplace": "Jakarta",
+        "religion": "Islam",
+        "dream": "Visit every continent and country"
+    },
+    "edukasi":[
+        {
+            "name": "SDN 04 Pondok Betung",
+            "year": 2000,
+            "graduate": 2006
+        },
+        {
+            "name": "SMPN 02 Pondok Aren",
+            "year": 2006,
+            "graduate": 2009
+        },
+        {
+            "name": "SMAN 10 Tangerang Selatan",
+            "year": 2009,
+            "graduate": 2012
+        },
+        {
+            "name": "Universitas Sriwijaya",
+            "year": 2012,
+            "graduate": 2017
+        }
+    ],
+    "experience":[
+        {
+            "job": "anggota",
+            "at": "Pencak Silat SMPN 02 Pondok Aren",
+            "from": 2006,
+            "to": 2008
+        },
+        {
+            "job": "anggota",
+            "at": "KIR SMPN 02 Pondok Aren",
+            "from": 2008,
+            "to": 2009
+        },
+        {
+            "job": "anggota",
+            "at": "Basket SMAN 10 Tangerang Selatan",
+            "from": 2009,
+            "to": 2010
+        },
+        {
+            "job": "anggota",
+            "at": "KIR SMAN 10 Tangerang Selatan",
+            "from": 2010,
+            "to": 2012
+        },
+        {
+            "job": "Ketua Umum",
+            "at": "KSL SOLUSI",
+            "from": 2012,
+            "to": 2014
+        },
+        {
+            "job": "Ketua Divisi AKPRO",
+            "at": "BPH HMIF Fasilkom Unsri",
+            "from": 2013,
+            "to": 2014
+        },
+        {
+            "job": "anggota",
+            "at": "Alpro Studio",
+            "from": 2014,
+            "to": 2014
+        },
+        {
+            "job": "anggota",
+            "at": "Microsoft Student Parter",
+            "from": 2014,
+            "to": 2017
+        },
+        {
+            "job": "Game Designer & Lead Artist",
+            "at": "Olock",
+            "from": 2015,
+            "to": "sekarang"
+        }
+    ],
+    "skill":[
+        {
+            "name": "Microsoft Office",
+            "percentase": "99"
+        },
+        {
+            "name": "Linux",
+            "percentase": "70"
+        },
+        {
+            "name": "Photoshop",
+            "percentase": "70"
+        },
+        {
+            "name": "Corel Draw",
+            "percentase": "70"
+        },
+        {
+            "name": "GIMP",
+            "percentase": "90"
+        },
+        {
+            "name": "Inkscape",
+            "percentase": "90"
+        },
+        {
+            "name": "Spriter Pro",
+            "percentase": "80"
+        },
+        {
+            "name": "Unity3D",
+            "percentase": "70"
+        },
+        {
+            "name": "PHP",
+            "percentase": "90"
+        },
+        {
+            "name": "JavaScript",
+            "percentase": "90"
+        },
+        {
+            "name": "CSS",
+            "percentase": "90"
+        },
+        {
+            "name": "C/C++",
+            "percentase": "80"
+        },
+        {
+            "name": "C#",
+            "percentase": "80"
+        }
+    ]
+}

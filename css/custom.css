@@ -1,0 +1,341 @@
+/* This stylesheet created by Ario Widiatmoko for rumaholock web purpose only */
+/* Credit to olock for rumaholock.com */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
+
+/* ///////////////////////////////// */
+/* Main Style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 12px;
+}
+h6 {
+  font-size: 10px;
+}
+h3,
+h4,
+h5 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+hr{
+    border-top-color: black;
+    border-top-width: 5px;
+}
+
+body{
+    background-color: #f9f766;
+    overflow-y: hidden;
+}
+
+body.privy{
+    background-color: #fffdb5;
+    overflow: auto;
+    text-align: justify;
+}
+
+.navbar{
+    position: fixed;
+    right: 50px;
+    top: 25px;
+    z-index: 3;
+}
+
+.navbar > .btn{
+    width: 120px;
+    color: white;
+    background-color: black;
+}
+
+.navbar > .btn-unactive:hover{
+    color: black;
+    background-color: white;
+}
+
+.navbar > .btn-active{
+    color: black;
+    background-color: white;
+}
+
+.pages{
+    margin-top: 100px;;
+}
+
+.pages > .page {
+    height: 500px;
+    width: 100%;
+}
+
+.pages > .page > .page-body{
+    padding: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+footer.privy{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f9f766;
+    width: 100%;
+    height: 50px;
+}
+
+footer > .copy{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 3;
+}
+
+footer > .socmed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.socmed > .btn-warning{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.socmed > .btn-warning:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+
+/* Spinner loading */
+
+.sk-spinner-three-bounce.sk-spinner {
+  margin: 0 auto;
+  width: 70px;
+  text-align: center;
+}
+.sk-spinner-three-bounce div {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+  animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.sk-spinner-three-bounce .sk-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.sk-spinner-three-bounce .sk-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-threeBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes sk-threeBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* ///////////////////////////////// */
+/* Paging Style */
+
+/* Home Page */
+
+.loader-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 22%;
+    background-color: #f9f766;
+    z-index: 2;
+}
+
+.home-logo{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.home-games{
+    margin-right: 15%;
+    margin-top: 17%;
+}
+
+.game{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.game > .game-img{
+    padding: 0;
+}
+
+.game > .game-img > img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.game > .game-desc{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.game > .game-desc > h3{
+    padding-top: 5px;
+}
+
+/* Team Page */
+
+.team-member{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.team-link{
+    cursor: pointer;
+    padding: 5px;
+    color: black;
+    font-size: 25px;
+}
+
+.team-link:hover{
+    color: #f9f766;
+}
+
+.team-member > img{
+    width: 100%;
+}
+
+/* Contact Page */
+
+.contact-panel{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: black;
+    width: 75%;
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.contact-fbPages{
+    padding: 15px;
+    background-color: white;
+    width: 530px;
+}
+
+/* Privacy Police */
+
+.privy-logo{
+    position: fixed;
+    right: 15%;
+    z-index: 2;
+    background-color: #f9f766;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 85px;
+    padding: 10px;
+}
+
+.privy-logo > img {
+    width: 100%;
+    z-index: 2;
+}
+
+.privy-navbar{
+    background-color: #f9f766;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+}
+
+.privy-home{
+    position: fixed;
+    top: 15px;
+    left: 15%;
+    width: 140px;
+    padding: 10px;
+    background-color: #f9f766;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.privy-home > .btn{
+    width: 120px;
+    color: white;
+    background-color: black;
+}
+
+.privy-home > .btn-unactive:hover{
+    color: black;
+    background-color: white;
+}
+
+.privy-home > .btn-active{
+    color: black;
+    background-color: white;
+}

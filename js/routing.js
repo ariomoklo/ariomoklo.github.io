@@ -13,7 +13,9 @@ $("button[page]").click(function(){
 
 window.onload = function(){
     $(".page").hide();
-    $(".home-page").fadeIn(1500, function(){
+    console.log('masuk0');
+    $(".page-home").fadeIn(1500, function(){
        $(".loader-page").fadeOut();
+        console.log('masuk');
     });
 };

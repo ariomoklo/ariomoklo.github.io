@@ -1,54 +1,392 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Olock</title>
-<meta name="description" content="Website Official Olock">
-<style>
-body {
-	background:#88e2ff url(http://rumaholock.com/img/gubata-bg.jpg) top center repeat;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#282828;
-	font-size:14px;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="olock house">
+        <meta name="author" content="Olock">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" >
 
-a { color:#ff6619; text-decoration:none; }
-span { display:block; font-size:11px; color:#999 }
-#inside {
-	min-height:500px;
-}
-#content {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:676px;
-    width:100%;
-}
-#pic {
-	margin:0 auto;
-	width:100%;
-	padding-top:70px;
-	padding-bottom:20px;
-}
-#foot {
-	background:#f7f7f7;
-	height:66px;
-	text-align:center;
-	padding-top:31px;
-}
-</style>
-<link href="favicon.ico" rel="icon" type="image/x-icon">
-</head>
+        <title>ariomoklo | Ario Widiatmoko</title>
 
-<body>
-<div id="inside">
-<div id="content">
-<div id="pic"><center><img src="http://rumaholock.com/img/underdevelopment.png" style="width: 35%;" /></center></div>
-<div id="foot">
-Mohon Maaf, Website ini sedang dalam pembangunan.
-<span>Sorry, our site is currently on development.</span>
-</div>
-</div>
-</div>
-</body>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!-- Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <button class="btn btn-active" page="home" >CV</button>
+            <button class="btn btn-unactive" page="porto" >Portofolio</button>
+            <button class="btn btn-unactive" page="blog" >Blog</button>
+        </div>
+        
+        <div class="loader-page">
+            <div class="page-body">
+                <center>
+                    <div class="sk-spinner sk-spinner-three-bounce">
+                        <div class="sk-bounce1"></div>
+                        <div class="sk-bounce2"></div>
+                        <div class="sk-bounce3"></div>
+                    </div>
+                </center>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="pages row">            
+                <div class="page page-home" data-page="home">
+                    <div class="page-body">
+                        <div class="col-md-3 col-sm-12 paneling" style="padding-top: 0px;">
+                            <img src="img/ario.png" class="img-responsive" alt="ario" /><br>
+                            <table class="table">
+                                <tr>
+                                    <td><i class="fa fa-user"></i></td>
+                                    <td><b>Ario Widiatmoko</b></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-birthday-cake"></i></td>
+                                    <td>Jakarta, 12 Oct 1994</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-home"></i></td>
+                                    <td>Palembang, Indonesia</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-at"></i></td>
+                                    <td>ariowidiatmoko@gmail.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-8 col-sm-12 paneling">
+                            <table class="table">
+                                <tr>
+                                    <th style="text-align: right;"><i class="fa fa-graduation-cap"></i></td>
+                                    <th>Education</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px;">2000 - 2006</td>
+                                    <td>SDN 04 Pondok Betung</td>
+                                </tr>
+                                <tr>
+                                    <td>2006 - 2009</td>
+                                    <td>SMPN 02 Pondok Aren</td>
+                                </tr>
+                                <tr>
+                                    <td>2009 - 2012</td>
+                                    <td>SMAN 10 South Tangerang</td>
+                                </tr>
+                                <tr>
+                                    <td>2012 - 2017</td>
+                                    <td>Universitas Sriwijaya</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right;"><i class="fa fa-group"></i></td>
+                                    <td><b>Organization</b></td>
+                                </tr>
+                                <tr>
+                                    <td>2012 - 2014</td>
+                                    <td>General Leader of KSL SOLUSI</td>
+                                </tr>
+                                <tr>
+                                    <td>2013 - 2014</td>
+                                    <td>Division Leader of BPH HMIF Fasilkom Unsri</td>
+                                </tr>
+                                <tr>
+                                    <td>2014 - 2017</td>
+                                    <td>Member of Microsoft Student Partner</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6 col-sm-12 paneling">
+                            <table class="table">
+                                <tr>
+                                    <th style="text-align: right;"><i class="fa fa-star"></i></td>
+                                    <th>Experience</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 100px;">2014</td>
+                                    <td>Game Artist of Alpro Studio</td>
+                                </tr>
+                                <tr>
+                                    <td>2015</td>
+                                    <td>Programmer Intern at Gambreng Games</td>
+                                </tr>
+                                <tr>
+                                    <td>2015 - Now</td>
+                                    <td>Game Designer and Game Artist at Olock</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-5 col-sm-12 paneling">
+                            <table class="table">
+                                <tr>
+                                    <th style="text-align: right;"><i class="fa fa-bolt"></i></td>
+                                    <th>Skill</td>
+                                </tr>
+                                <tr>
+                                    <td>App</td>
+                                    <td>GIMP, Inkscape, Photoshop, CorelDraw, Marmoset Hexels, Spriter, Unity3D</td>
+                                </tr>
+                                <tr>
+                                    <td>Language</td>
+                                    <td>JavaScript, PHP, CSS, VB, C#, C/C++</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page page-porto" data-page="porto">
+                    <div class="page-body">
+                        <div class="col-md-12">
+                            <h1 style="margin-top: 0px;">My Portofolio</h1><hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/itchioBanner.png" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3><a href="https://play.google.com/store/apps/details?id=com.Olock.Gubata">Gubata (Olock)</a></h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Game Designer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Puzzle Game about Rock Paper Scissor. Gubata is my first release mobile games with Olock.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/gameUI.jpg" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3><a href="https://play.google.com/store/apps/details?id=com.Olock.Tree_of_Life">Tree of Life Mobile Games (Olock)</a></h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Game Designer and Game Artist</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Mobile Games about Math Puzzle. Tree of Life is a Finalis in Jogja Game Session JOINTS 2015</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/promoart.jpg" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Goni Mobile Games (Olock)</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Game Designer and Lead Artist</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Jul 2015 - Aug 2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Mobile Games about Balap Karung. Goni received a third place in Technology Euphoria Mobile Game Competition 2015.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/tanktop.PNG" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Tanktop (Olock)</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Game Designer and Game Artist</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Oct 2015 - Nov 2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Tanktop is a Pixelated Tank War Games. Tanktop is one of two olock games as nominee in YummyYummyTummy Challenge at GDG 2015</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="https://img.itch.zone/aW1hZ2UvMTI4OTA2LzU5Mjc4OS5wbmc=/original/gcJIS%2B.png" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3><a href="https://olock.itch.io/hentied">HenTied (Olock)</a></h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Game Designer and Game Artist</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Oct 2015 - Nov 2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Survival Games. HenTied is one of two olock games as nominee in YummyYummyTummy Challenge at GDG 2015</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/unsri.png" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Sistem Informasi Manajemen Tugas Akhir (SIMTA)</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Full Stack Web Developer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>Computer Science Faculty of Sriwijaya University</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Sept 2016 - Des 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Developing a Web Based Management System of Final Projects in the faculty. Using CI Framework, Jquery, and Provided Theme.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/unsri.png" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Sistem Informasi Manajemen Laboratorium (SIMLAB)</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Full Stack Web Developer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>Computer Science Faculty of Sriwijaya University</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Sept 2016 - Des 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Developing a Web Based Management System of Labs in the faculty. Using CI Framework, Jquery, and Provided Theme.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-12 paneling">
+                                <div class="col-md-4">
+                                    <img src="img/unsri.png" class="img-responsive" alt="ario" /><br>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Sistem Informasi Manajemen Unsri Terintegrasi - AMAI (SIMUT-AMAI)</h3>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Jobs</td>
+                                            <td>Full Stack Web Developer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Client</td>
+                                            <td>Sriwijaya University</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projects Date</td>
+                                            <td>Sept 2016 - Jan 2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Detail</td>
+                                            <td>Developing a Web Based Management System of Accreditation System in the university. Using CI Framework, Jquery, and Provided Theme.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="page page-blog" data-page="blog">
+                    <div class="page-body">
+                        <center>
+                            <div class="col-md-12 col-sm-12 paneling" style="padding-bottom:25px; margin-top: 100px;">
+                                <h1>Sorry, My blog is underdevelopment. I am trying to migrate from tumblr.</h1>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <footer>
+            <div class="socmed">
+                <a href="https://www.facebook.com/ariomoklo" class="btn btn-warning btn-sm">facebook <i class="fa fa-facebook-square"></i></a>
+                <a href="http://rumaholock.com" class="btn btn-warning btn-sm">rumaholock</a>
+            </div>
+        </footer>
+    </body>
+    
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/routing.js"></script>
 </html>

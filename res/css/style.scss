@@ -15,7 +15,7 @@ body{
         overflow: hidden;
         padding-bottom: 1rem;
 
-        @media only screen and (min-width: 721px){
+        @media only screen and (min-width: 720px){
             grid-template-columns: 320px 1fr;
         }
     }
@@ -37,6 +37,7 @@ aside{
     grid-row: 1;
     align-self: stretch;
     width: 100%;
+    height: 100%;
     .card{
         margin-top: -70px;
         height: 100%;
@@ -47,14 +48,37 @@ aside{
 main{
     grid-column: 1 / 2;
     grid-row: 2;
-    align-self: stretch;
-    max-width: 320px;
     width: 100%;
+    z-index: 100;
 
     @media only screen and (min-width: 720px){
         grid-column: 2 / 3;
         grid-row: 1;
-        align-self: stretch;
+    }
+}
+
+.show-bg{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    width: 100%;
+    align-self: stretch;
+    background-color: #fff;
+    z-index: 99;
+    border: {
+        left: {
+            style: solid;
+            width: 1px;
+            color: rgba(223, 215, 202, 0.75);
+        }
+        right: {
+            style: solid;
+            width: 1px;
+            color: rgba(223, 215, 202, 0.75);
+        }
+    }
+
+    @media only screen and (min-width: 720px){
+        display: none;
     }
 }
 

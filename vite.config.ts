@@ -25,7 +25,7 @@ export default defineConfig({
 			browser: true,
 			node: true
 		},
-		ignorePatterns: ['.svelte-kit/', 'build/', 'docs/', 'old/', 'node_modules/'],
+		ignorePatterns: ['.svelte-kit/', 'build/', 'docs/', 'old/', 'node_modules/', 'static/'],
 		rules: {
 			'constructor-super': 'error',
 			'for-direction': 'error',
@@ -245,6 +245,7 @@ export default defineConfig({
 			'/package',
 			'/docs',
 			'/old',
+			'/static',
 			'/.vscode',
 			'.env',
 			'.env.*',

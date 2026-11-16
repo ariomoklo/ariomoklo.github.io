@@ -1,1 +1,0 @@
-import{I as e}from"./2ipifeNr.js";e();
